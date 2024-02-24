@@ -1,0 +1,228 @@
+.about__nav {
+  a:nth-child(1) {
+    color: #431a1a;
+  }
+  a:nth-child(2) {
+    color: orangered;
+  }
+}
+
+.about__hero {
+  background: #014e56;
+  background-image: url(/images/about__hero.svg);
+  background-repeat: no-repeat;
+  background-position: right -100px bottom;
+
+  @media screen and (max-width: 765px) {
+    background-size: 130px;
+    background-position: right -70px bottom;
+  }
+}
+
+.about__hero__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  @media screen and (max-width: 765px) {
+    width: 340px;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 90px;
+    text-align: center;
+    justify-content: center;
+  }
+}
+.about__hero__title {
+  h1 {
+    font-family: Livvic;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    color: #fff;
+
+    @media screen and (max-width: 765px) {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 50px;
+    }
+  }
+}
+
+.about__hero__text {
+  width: 100%;
+  max-width: 730px;
+
+  p {
+    color: rgb(255, 255, 255);
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+
+    @media screen and (max-width: 765px) {
+      display: flex;
+      font-size: 12px;
+      line-height: 18px;
+      align-items: center;
+    }
+  }
+}
+.about__line-1 {
+  width: 50px;
+  border: 2px solid #f67e7e;
+  margin-bottom: 80px;
+
+  @media screen and (max-width: 765px) {
+    display: none;
+  }
+}
+
+.about__obunachilar {
+  background: #004047;
+  background-image: url(/images/about__obunachilar-bac.svg),
+    url(/images/coment-bac-1.svg);
+  background-position: left -100px top, right bottom;
+  background-repeat: no-repeat;
+
+  @media (max-width: 765px) {
+    background-position: left -100px top -100px, right bottom;
+  }
+}
+.about__obunachilar__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 140px;
+  padding-bottom: 160px;
+
+  h2 {
+    padding-bottom: 64px;
+  }
+}
+.about__obunachilar__bulim {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    row-gap: 60px;
+  }
+
+  @media (max-width: 765px) {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 60px;
+  }
+}
+.about__obunachilar__qator {
+  width: 350px;
+  height: 300px;
+  background: #012f34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+
+  h5 {
+    color: rgb(121, 200, 199);
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  p {
+    color: rgb(255, 255, 255);
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 60px;
+  }
+
+  .pluss-img {
+    padding: 24px;
+    background: #f67e7e;
+    border-radius: 50%;
+    transition: 0.5s ease;
+    margin-bottom: -30px;
+    cursor: pointer;
+  }
+  .pluss-img:hover {
+    rotate: 135deg;
+    background: rgb(107, 196, 221);
+  }
+  .pluss-kok {
+    background: rgb(107, 196, 221);
+    margin-top: 20px;
+  }
+  .pluss-kok:hover {
+    background: #f67e7e;
+  }
+}
+
+.about__obunachilar__qator:nth-child(6) {
+  h5 {
+    padding-top: 35px;
+    padding-bottom: 8px;
+  }
+  p {
+    width: 255px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+}
+.qator__icon {
+  display: flex;
+  gap: 20px;
+}
+
+// about  hamkorlar
+
+.about__hamkorlar {
+  background: #012f34;
+  background-image: url(/images/about__hamkorlar__bac.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+
+  @media (max-width: 765px) {
+    background-position: left -100px top -100px;
+  }
+}
+
+.about__hamkorlar__container {
+  padding-top: 140px;
+  padding-bottom: 150px;
+  text-align: center;
+
+  h2 {
+    padding-bottom: 65px;
+  }
+}
+.about__hamkorlar__bulim {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 80px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (max-width: 1200px) {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.about__nav {
+  a:nth-child(1) {
+    color: #fff;
+  }
+  a:nth-child(2) {
+    color: orangered;
+  }
+}

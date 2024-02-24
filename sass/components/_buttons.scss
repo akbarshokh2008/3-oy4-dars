@@ -1,0 +1,38 @@
+.btn {
+  color: rgb(0, 37, 41);
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  background: transparent;
+  padding: 9px 32px;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+
+  @media screen and (max-width: 765px) {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 20px;
+    border: 0.5px solid #fff;
+  }
+}
+.btn:hover {
+  background: #fff;
+  color: #014e56;
+}
+.ruyxat__btn {
+  border: 1px solid #014e56;
+  color: #014e56;
+}
+
+.ruyxat__btn:hover {
+  background: #014e56;
+  color: #fff;
+}
+.header-btn {
+  @media screen and (max-width: 500px) {
+    display: none;
+  }
+}

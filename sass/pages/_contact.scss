@@ -1,0 +1,97 @@
+.contact {
+  background: #014e56;
+  background-image: url(/images/about__obunachilar-bac.svg),
+    url(/images/contact__bac.svg);
+  background-repeat: no-repeat;
+  background-position: left -100px top, right -100px bottom;
+
+  @media screen and (max-width: 500px) {
+    background-image: none, url(/images/contact__bac.svg);
+    background-repeat: no-repeat;
+    background-position: right -100px bottom -100px;
+  }
+}
+.contact__nav {
+  a {
+    color: #fff;
+  }
+}
+.contact__btn {
+  background: #fff;
+  color: #014e56;
+}
+.contact__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 130px;
+
+  @media (max-width: 765px) {
+    flex-direction: column;
+  }
+  h1 {
+    color: rgb(255, 255, 255);
+    font-family: Livvic;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    padding-bottom: 16px;
+  }
+  h4 {
+    color: rgb(246, 126, 126);
+    font-family: Livvic;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-bottom: 30px;
+  }
+}
+
+.about__hero__ikkinchi__bulim {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  gap: 20;
+
+  @media (max-width: 765px) {
+    width: 300px;
+    margin-left: -50px;
+    margin-top: 30px;
+  }
+  input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffffb2;
+    padding: 16px;
+    color: #ffffff;
+    outline: none;
+    font-size: 18px;
+  }
+  .plac-message {
+    padding-bottom: 55px;
+  }
+  button {
+    width: 100%;
+    max-width: 125px;
+    border-radius: 20px;
+    color: rgb(0, 64, 71);
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  button:hover {
+    background: #014e56;
+    color: white;
+    box-shadow: 1px 0px 7px 14px rgba(14, 227, 239, 0.2);
+  }
+}

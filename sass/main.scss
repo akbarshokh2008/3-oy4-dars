@@ -1,0 +1,24 @@
+@use "abstracks/mixins";
+@use "abstracks/variables";
+
+@use "base/reset";
+@use "base/typography";
+
+@use "components/buttons";
+
+@use "layout/footer";
+@use "layout/header";
+@use "layout/hero";
+@use "layout/commentlar";
+// @use "layout/navigation";
+// @use "layout/tarmoqlar";
+// @use "layout/malumotlar";
+// @use "layout/tanishtiruv";
+// @use "layout/tushuntirish";
+
+@use "pages/home";
+@use "pages/about";
+@use "pages/contact";
+@use "pages/saidbar";
+
+@use "themes/themes";
